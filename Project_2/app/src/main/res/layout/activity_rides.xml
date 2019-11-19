@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rides">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="AVAILABLE DRIVERS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00BCD4"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="60dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="150dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="240dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="129dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="131dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="134dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="80dp"
+        android:numStars="5"
+        android:rating="3" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="310dp"
+        android:text="SELECT" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="4"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="170dp" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="150dp"
+        android:text="SELECT" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="5"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="270dp" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="240dp"
+        android:text="SEARCH" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:text="BOOKING DETAILS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00BCD4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:text="Pickup location"
+        android:textColor="#00BCD4"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="390dp"
+        android:ems="4"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:text="Destination"
+        android:textColor="#00BCD4"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="430dp"
+        android:ems="4"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:text="Date"
+        android:textColor="#00BCD4"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="480dp"
+        android:ems="4"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:text="Time"
+        android:textColor="#00BCD4"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="530dp"
+        android:ems="4"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:text="Driver"
+        android:textColor="#00BCD4"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="580dp"
+        android:ems="4"
+        android:inputType="textPersonName"
+        android:text="" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:text="Price"
+        android:textColor="#00BCD4"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="630dp"
+        android:ems="4"
+        android:inputType="textPersonName"
+        android:text="" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:layout_centerHorizontal="true"
+        android:text="CONFIRM" />
+
+
+
+</RelativeLayout>

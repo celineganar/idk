@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="MAKE A BOOKING"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00BCD4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Enter Location:" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Enter Destination:" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="170dp"
+        android:entries="@array/location"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="170dp"
+        android:entries="@array/destination"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="160dp"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="302dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="160dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="61dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="460dp"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="170dp"
+        android:ems="10"
+        android:inputType="time" />
+
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="505dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:text="SEARCH" />
+
+
+
+
+
+</RelativeLayout>

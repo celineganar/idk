@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">UWIBUS</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="location">
+        <item>Chaguanas</item>
+        <item>UWI</item>
+        <item>Arima</item>
+        <item>Couva</item>
+        <item>San Fernando</item>
+        <item>Port-of-Spain</item>
+        <item>Tunapuna</item>
+        <item>Westmoorings</item>
+        <item>Claxton Bay</item>
+        <item>St.Augustine</item>
+        <item>Freeport</item>
+
+    </string-array>
+    <string-array name="destination">
+        <item>UWI</item>
+        <item>Chaguanas</item>
+        <item>Arima</item>
+        <item>Couva</item>
+        <item>San Fernando</item>
+        <item>Port-of-Spain</item>
+        <item>Tunapuna</item>
+        <item>Westmoorings</item>
+        <item>Claxton Bay</item>
+        <item>St.Augustine</item>
+        <item>Freeport</item>
+
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
+
+
